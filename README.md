@@ -1,6 +1,7 @@
 # Progra2-UNAHUR-2da-Camada-2025
 
-ramas.
+BRANCHS.
 
-classroom: practica en clase , ejercicios experimentales.
-completed - exercises: actividades complementarias
+classroom: practica en clase.
+
+completed - exercises: actividades complementarias.
