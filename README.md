@@ -2,6 +2,6 @@
 
 BRANCHS.
 
-classroom: practica en clase.
+CLASROOM: practica en clase.
 
-completed - exercises: actividades complementarias.
+EXERCISES: actividades complementarias.
