@@ -2,6 +2,8 @@
 
 Ramas/Branchs:
 
+MAIN: default
+
 CLASROOM: practica en clase.
 
 EXERCISES: actividades complementarias.
