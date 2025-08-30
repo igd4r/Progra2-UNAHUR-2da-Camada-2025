@@ -14,27 +14,23 @@ public class SquareMovement : MonoBehaviour
     }
     void Update()
     {
-        //Input.GetAxis("Horizontal");
-        
+        //Movimiento por Transform con un vector direccion
+        transform.position += direction * speed * Time.deltaTime;
 
-        //if (Input.GetKey(KeyCode.T))
-        //{
-        //    print("Get Key");
-        //    //llamar animacion
-        //}
-
-        
-        if (Input.GetKeyDown(KeyCode.U))
+        //Forma de detectar una tecla del teclado
+        if (Input.GetKeyDown(KeyCode.F) && _target.activeInHierarchy)
         {
             _target.SetActive(false);
         }
+        else if (Input.GetKeyDown((KeyCode.T)))
+        {
+            _target.SetActive(true);
+        }
 
-        //if (Input.GetKeyUp(KeyCode.I))
-        //{
-        //    print("Get Key Up");
-        //}
 
-        transform.position += direction * speed * Time.deltaTime;
-  
     }
+
+
+
+
 }
