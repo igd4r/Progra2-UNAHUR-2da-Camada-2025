@@ -6,7 +6,7 @@ public class SquareMovement : MonoBehaviour
     public GameObject _target;
     private void Awake()
     {
-        _target = GameObject.Find("Circle");
+        _target = GameObject.Find("Target");
     }
     void Start()
     {
