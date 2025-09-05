@@ -1,6 +1,7 @@
 using UnityEngine;
 public class SquareMovement : MonoBehaviour
 {
+    public CircleController _classTest;
     public Vector3 direction;
     public float speed;
     public GameObject _target;
@@ -8,10 +9,7 @@ public class SquareMovement : MonoBehaviour
     {
         _target = GameObject.Find("Target");
     }
-    void Start()
-    {
-       
-    }
+
     void Update()
     {
         //Movimiento por Transform con un vector direccion
